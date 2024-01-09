@@ -132,7 +132,7 @@ MODEL_PATH = Path("models")
 MODEL_PATH.mkdir(parents=True, exist_ok=True)
 
 # 2. Create model save path 
-MODEL_NAME = "01_pytorch_workflow_model_0.pth"
+MODEL_NAME = "firstNN.pth"
 MODEL_SAVE_PATH = MODEL_PATH / MODEL_NAME
 
 # 3. Save the model state dict 
